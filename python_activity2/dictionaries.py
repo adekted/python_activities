@@ -21,7 +21,5 @@ print(adrian["name"])
 print(str(len(adrian["hobbies"])) + " hobbies")
 for hobby in adrian["hobbies"]:
     print(hobby)
-for times in adrian["wake_up"]:
-    print(times + " " +str(adrian["wake_up"][times]))
 for k,v in adrian["wake_up"].items():
     print(k,v)
